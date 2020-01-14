@@ -2,22 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 
-function UserShow (props){
-    // constructor(){
-    //     super()
-    //     this.state = {
-    //         user:{}
-    //     }
-    // }
-    // componentDidMount(){
-    //     const id= this.props.match.params.id
-    //     axios.get(`https://jsonplaceholder.typicode.com/users/${id}`)
-    //     .then(response =>{
-    //         const user = response.data
-    //         this.setState({user})
-    //     })
-    // }
-    
+function UserShow (props){    
         return(
             <div>
     

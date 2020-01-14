@@ -4,20 +4,7 @@ import {connect} from 'react-redux'
 
 
 function UserList(props){
-    // constructor(){
-    //     super()
-    //     this.state = {
-    //         users: []
-    //     }
-    // }
-    // componentDidMount(){
-    //     axios.get('https://jsonplaceholder.typicode.com/users')
-    //     .then(response => {
-    //         const users = response.data
-    //         this.setState({users})
-    //     })
-    // }
-    
+        
         return(
             <div>
                 <h2>Listing Users- {props.users.length}</h2>
