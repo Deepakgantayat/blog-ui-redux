@@ -18,9 +18,9 @@ function App() {
       <ul className="nav justify-content-end">   
         <div className="nav justify-content-end">
         <li className="nav-item active"><Link to="/"  className="nav-link" style={{color:"white"}}>Home</Link></li>
-        <li className="nav-item"><Link to="/about"  className="nav-link" style={{color:"white"}}>About</Link></li>
         <li className="nav-item"><Link to="/users"  className="nav-link" style={{color:"white"}}>Users</Link></li> 
         <li className="nav-item"><Link to = "/posts"  className="nav-link" style={{color:"white"}}>Posts</Link></li>
+        <li className="nav-item"><Link to="/about"  className="nav-link" style={{color:"white"}}>About</Link></li>
         </div>
        
   

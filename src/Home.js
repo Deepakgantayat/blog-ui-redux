@@ -6,7 +6,7 @@ function HomeComponent(props){
     console.log(props)
     return (
         <div className="container  mt-5">
-            <h2 style={{textAlign:"center"}}>Welcome to our Website</h2>    
+            <h2 style={{textAlign:"center"}}>Welcome to My Website</h2>    
             <img src="https://knockknockwhoisthere.files.wordpress.com/2018/03/dotblog.png" class="rounded mx-auto d-block" alt="..."></img>    
         </div>
     )
